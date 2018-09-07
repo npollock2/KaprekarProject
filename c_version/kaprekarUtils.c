@@ -44,11 +44,11 @@ int isKaprekar(int n) {
     //split the square into two parts
     first = square / modulus;
     second = square % modulus;
-
+    n = first + second;
     //test if the split makes a Kaprekar number
     //the second part cannot be zero and if
     //the sum of the two parts is equal to n, then it is
-    if(second > 0 && n = first + second) {
+    if(second > 0 && ) {
       return 1;
     }
   }
